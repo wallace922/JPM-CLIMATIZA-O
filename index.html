@@ -28,11 +28,11 @@
       <div class="flex items-center justify-between h-16 lg:h-20">
         
         <!-- Logo -->
-        <a href="#inicio" class="flex items-center gap-3 group">
-          <div class="w-11 h-11 rounded-2xl bg-azul-escuro border border-white/10 flex items-center justify-center p-2 shadow-lg shadow-azul-escuro/30 group-hover:bg-azul group-hover:scale-105 transition-all duration-300">
+        <a href="#inicio" class="flex items-center gap-2.5 sm:gap-3 group">
+          <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-azul-escuro border border-white/10 flex items-center justify-center p-2 shadow-lg shadow-azul-escuro/30 group-hover:bg-azul group-hover:scale-105 transition-all duration-300">
             <img src="/images/logo/logo.png" alt="Logo JPM Climatização" class="w-full h-full object-contain" />
           </div>
-          <span class="text-xl font-extrabold tracking-tight text-azul-escuro group-hover:text-azul transition-colors">
+          <span class="text-lg sm:text-xl font-extrabold tracking-tight text-azul-escuro group-hover:text-azul transition-colors">
             JPM <span class="text-azul">CLIMATIZAÇÃO</span>
           </span>
         </a>
@@ -56,7 +56,7 @@
         </div>
 
         <!-- Mobile Hamburger Button -->
-        <button id="hamburger-btn" class="lg:hidden flex flex-col gap-1.5 p-2 rounded-lg hover:bg-azul-gelo transition-colors" aria-label="Abrir menu">
+        <button id="hamburger-btn" class="lg:hidden flex flex-col gap-1.5 p-2 rounded-xl hover:bg-azul-gelo transition-colors" aria-label="Abrir menu">
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
@@ -67,55 +67,61 @@
     <!-- Mobile Navigation Drawer -->
     <div id="mobile-menu" class="mobile-menu lg:hidden bg-white/95 backdrop-blur-lg border-b border-azul/10">
       <div class="px-6 py-6 space-y-4">
-        <a href="#inicio" class="block text-lg font-semibold text-azul-escuro hover:text-azul transition-colors">Início</a>
-        <a href="#sobre" class="block text-lg font-semibold text-azul-escuro hover:text-azul transition-colors">Sobre</a>
-        <a href="#servicos" class="block text-lg font-semibold text-azul-escuro hover:text-azul transition-colors">Serviços</a>
-        <a href="#trabalhos" class="block text-lg font-semibold text-azul-escuro hover:text-azul transition-colors">Trabalhos</a>
-        <a href="#diferenciais" class="block text-lg font-semibold text-azul-escuro hover:text-azul transition-colors">Diferenciais</a>
-        <a href="#contato" class="block text-lg font-semibold text-azul-escuro hover:text-azul transition-colors">Contato</a>
-        <a href="https://wa.me/5521965462781" target="_blank" rel="noopener noreferrer"
-          class="btn-cta flex items-center justify-center gap-2 bg-azul text-white px-6 py-3.5 rounded-full text-base font-bold shadow-lg shadow-azul/20 mt-4">
-          Solicitar Orçamento Grátis
-        </a>
+        <a href="#inicio" class="block text-lg font-bold text-azul-escuro hover:text-azul transition-colors">Início</a>
+        <a href="#sobre" class="block text-lg font-bold text-azul-escuro hover:text-azul transition-colors">Sobre</a>
+        <a href="#servicos" class="block text-lg font-bold text-azul-escuro hover:text-azul transition-colors">Serviços</a>
+        <a href="#trabalhos" class="block text-lg font-bold text-azul-escuro hover:text-azul transition-colors">Trabalhos</a>
+        <a href="#diferenciais" class="block text-lg font-bold text-azul-escuro hover:text-azul transition-colors">Diferenciais</a>
+        <a href="#contato" class="block text-lg font-bold text-azul-escuro hover:text-azul transition-colors">Contato</a>
+        
+        <div class="pt-2 space-y-3">
+          <a href="https://wa.me/5521965462781" target="_blank" rel="noopener noreferrer"
+            class="btn-cta flex items-center justify-center gap-2 bg-azul text-white px-6 py-3.5 rounded-full text-base font-bold shadow-lg shadow-azul/20">
+            💬 WhatsApp: (21) 96546-2781
+          </a>
+          <a href="https://instagram.com/jpmclimatizacao01" target="_blank" rel="noopener noreferrer"
+            class="flex items-center justify-center gap-2 bg-azul-gelo text-azul px-6 py-3 rounded-full text-sm font-semibold border border-azul/10">
+            📷 Instagram: @jpmclimatizacao01
+          </a>
+        </div>
       </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <section id="inicio" class="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
+  <section id="inicio" class="relative min-h-screen flex items-center pt-20 pb-16 overflow-hidden">
     <div class="hero-gradient absolute inset-0"></div>
     
     <!-- Visual background elements -->
     <div class="absolute inset-0 pointer-events-none opacity-20">
-      <div class="absolute top-20 left-10 w-72 h-72 border border-cyan-400/30 rounded-full blur-sm"></div>
-      <div class="absolute bottom-20 right-10 w-96 h-96 border border-white/20 rounded-full blur-sm"></div>
-      <div class="absolute top-1/3 right-1/3 w-40 h-40 border border-cyan-300/30 rounded-full"></div>
+      <div class="absolute top-10 left-5 w-60 h-60 border border-cyan-400/30 rounded-full blur-sm"></div>
+      <div class="absolute bottom-10 right-5 w-80 h-80 border border-white/20 rounded-full blur-sm"></div>
     </div>
 
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-24">
-      <div class="grid lg:grid-cols-12 gap-12 items-center">
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-24">
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
         
         <!-- Left Content -->
-        <div class="lg:col-span-7 space-y-8 text-left">
+        <div class="lg:col-span-7 space-y-6 sm:space-y-8 text-left">
           
-          <div class="scroll-reveal from-bottom inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/15">
-            <span class="w-2.5 h-2.5 rounded-full bg-ciano animate-pulse"></span>
-            <span class="text-ciano font-bold text-xs sm:text-sm tracking-wider uppercase">
-              Conforto Térmico &bull; Manutenção &bull; Eficiência
+          <div class="scroll-reveal from-bottom inline-flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/15">
+            <span class="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-ciano animate-pulse"></span>
+            <span class="text-ciano font-bold text-[11px] sm:text-sm tracking-wider uppercase">
+              Conforto Térmico &bull; Eficiência &bull; Garantia
             </span>
           </div>
 
-          <h1 class="scroll-reveal from-bottom delay-1 text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight">
+          <h1 class="scroll-reveal from-bottom delay-1 text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.15] sm:leading-[1.1] tracking-tight">
             O clima ideal para o seu <span class="text-transparent bg-clip-text bg-gradient-to-r from-ciano via-cyan-200 to-white">bem-estar</span> e produtividade
           </h1>
 
-          <p class="scroll-reveal from-bottom delay-2 text-lg sm:text-xl text-white/90 max-w-2xl leading-relaxed font-normal">
+          <p class="scroll-reveal from-bottom delay-2 text-base sm:text-xl text-white/90 max-w-2xl leading-relaxed font-normal">
             Soluções completas em climatização e refrigeração. Instalação, higienização e conserto com laudo técnico e garantia de serviço.
           </p>
 
-          <div class="scroll-reveal from-bottom delay-3 flex flex-col sm:flex-row gap-4 pt-2">
+          <div class="scroll-reveal from-bottom delay-3 flex flex-col sm:flex-row gap-3 sm:gap-4 pt-1">
             <a href="https://wa.me/5521965462781" target="_blank" rel="noopener noreferrer"
-              class="btn-cta pulse-glow inline-flex items-center justify-center gap-3 bg-white text-azul-escuro hover:bg-cyan-50 px-8 py-4 rounded-full text-base font-extrabold shadow-2xl transition-all">
+              class="btn-cta pulse-glow inline-flex items-center justify-center gap-3 bg-white text-azul-escuro hover:bg-cyan-50 px-7 py-4 rounded-full text-base font-extrabold shadow-2xl transition-all">
               <svg class="w-5 h-5 fill-emerald-600" viewBox="0 0 24 24">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
               </svg>
@@ -123,55 +129,55 @@
             </a>
             
             <a href="#servicos"
-              class="inline-flex items-center justify-center gap-2 border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-full text-base font-semibold hover:bg-white/10 transition-all">
+              class="inline-flex items-center justify-center gap-2 border-2 border-white/30 hover:border-white text-white px-7 py-3.5 sm:py-4 rounded-full text-base font-semibold hover:bg-white/10 transition-all">
               Ver Nossos Serviços
             </a>
           </div>
 
-          <div class="scroll-reveal from-bottom delay-4 grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-white/10 text-white/80 text-xs sm:text-sm font-medium">
-            <div class="flex items-center gap-2">
-              <span class="w-5 h-5 rounded-full bg-ciano/20 text-ciano flex items-center justify-center font-bold">&check;</span>
-              <span>Serviço com Garantia</span>
+          <div class="scroll-reveal from-bottom delay-4 grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-4 border-t border-white/10 text-white/90 text-xs sm:text-sm font-semibold">
+            <div class="flex items-center gap-1.5 bg-white/10 p-2 sm:p-0 rounded-xl sm:bg-transparent">
+              <span class="w-4 h-4 rounded-full bg-ciano/20 text-ciano flex items-center justify-center font-bold text-[10px]">&check;</span>
+              <span>Garantia de Serviço</span>
             </div>
-            <div class="flex items-center gap-2">
-              <span class="w-5 h-5 rounded-full bg-ciano/20 text-ciano flex items-center justify-center font-bold">&check;</span>
-              <span>Técnicos Credenciados</span>
+            <div class="flex items-center gap-1.5 bg-white/10 p-2 sm:p-0 rounded-xl sm:bg-transparent">
+              <span class="w-4 h-4 rounded-full bg-ciano/20 text-ciano flex items-center justify-center font-bold text-[10px]">&check;</span>
+              <span>Técnico Certificado</span>
             </div>
-            <div class="flex items-center gap-2">
-              <span class="w-5 h-5 rounded-full bg-ciano/20 text-ciano flex items-center justify-center font-bold">&check;</span>
+            <div class="flex items-center gap-1.5 bg-white/10 p-2 sm:p-0 rounded-xl sm:bg-transparent col-span-2 sm:col-span-1">
+              <span class="w-4 h-4 rounded-full bg-ciano/20 text-ciano flex items-center justify-center font-bold text-[10px]">&check;</span>
               <span>Orçamento Ágil</span>
             </div>
           </div>
 
         </div>
 
-        <!-- Right Hero Graphic -->
-        <div class="lg:col-span-5 scroll-reveal from-right delay-2 relative flex justify-center">
-          <div class="relative w-full max-w-lg">
+        <!-- Right Hero Graphic (Visible on Mobile & Desktop) -->
+        <div class="lg:col-span-5 scroll-reveal from-right delay-2 relative flex justify-center pt-4 lg:pt-0">
+          <div class="relative w-full max-w-sm sm:max-w-lg">
             
             <!-- Main Glass Card -->
-            <div class="relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 shadow-2xl overflow-hidden">
-              <div class="flex items-center justify-between border-b border-white/10 pb-6 mb-6">
-                <div class="flex items-center gap-3">
-                  <div class="w-3 h-3 rounded-full bg-emerald-400 animate-ping"></div>
-                  <span class="text-xs font-bold uppercase tracking-wider text-cyan-200">Sistema Ativo</span>
+            <div class="relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-6 sm:p-8 shadow-2xl overflow-hidden">
+              <div class="flex items-center justify-between border-b border-white/10 pb-4 sm:pb-6 mb-4 sm:mb-6">
+                <div class="flex items-center gap-2 sm:gap-3">
+                  <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></div>
+                  <span class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-cyan-200">Sistema Ativo</span>
                 </div>
-                <span class="px-3 py-1 bg-ciano/20 text-ciano rounded-full text-xs font-bold">21°C • Turbo Cool</span>
+                <span class="px-2.5 py-1 bg-ciano/20 text-ciano rounded-full text-[11px] sm:text-xs font-bold">21°C • Turbo Cool</span>
               </div>
 
               <!-- Air Conditioning Graphic Mockup -->
-              <div class="bg-gradient-to-b from-white/15 to-white/5 rounded-2xl p-6 border border-white/15 text-center relative group">
-                <div class="w-full h-24 bg-white/20 rounded-xl border border-white/30 flex items-center justify-between px-6 shadow-inner relative overflow-hidden">
+              <div class="bg-gradient-to-b from-white/15 to-white/5 rounded-2xl p-4 sm:p-6 border border-white/15 text-center relative group">
+                <div class="w-full h-20 sm:h-24 bg-white/20 rounded-xl border border-white/30 flex items-center justify-between px-4 sm:px-6 shadow-inner relative overflow-hidden">
                   <div class="flex items-center gap-2">
-                    <span class="w-3 h-3 rounded-full bg-cyan-400"></span>
-                    <span class="text-xs font-extrabold text-white tracking-widest uppercase">JPM INVERTER</span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
+                    <span class="text-[10px] sm:text-xs font-extrabold text-white tracking-widest uppercase">JPM INVERTER</span>
                   </div>
                   <div class="text-right">
-                    <span class="text-2xl font-black text-ciano tracking-tight">21°C</span>
-                    <p class="text-[10px] text-white/70">ECO MODE</p>
+                    <span class="text-xl sm:text-2xl font-black text-ciano tracking-tight">21°C</span>
+                    <p class="text-[9px] sm:text-[10px] text-white/70">ECO MODE</p>
                   </div>
                   <!-- Vent Air Lines Animation -->
-                  <div class="absolute bottom-1 left-6 right-6 flex justify-around opacity-60">
+                  <div class="absolute bottom-1 left-4 right-4 flex justify-around opacity-60">
                     <div class="w-1 h-3 bg-cyan-300/80 rounded-full animate-bounce"></div>
                     <div class="w-1 h-4 bg-cyan-300/80 rounded-full animate-bounce delay-100"></div>
                     <div class="w-1 h-3 bg-cyan-300/80 rounded-full animate-bounce delay-200"></div>
@@ -179,36 +185,36 @@
                   </div>
                 </div>
 
-                <div class="mt-6 flex items-center justify-around text-white">
+                <div class="mt-4 sm:mt-6 flex items-center justify-around text-white">
                   <div class="text-center">
-                    <span class="text-2xl block mb-1">❄️</span>
-                    <span class="text-xs font-medium text-white/80">Refrigeração</span>
+                    <span class="text-xl sm:text-2xl block mb-1">❄️</span>
+                    <span class="text-[11px] sm:text-xs font-medium text-white/80">Refrigeração</span>
                   </div>
                   <div class="text-center">
-                    <span class="text-2xl block mb-1">🛡️</span>
-                    <span class="text-xs font-medium text-white/80">Higienizado</span>
+                    <span class="text-xl sm:text-2xl block mb-1">🛡️</span>
+                    <span class="text-[11px] sm:text-xs font-medium text-white/80">Higienizado</span>
                   </div>
                   <div class="text-center">
-                    <span class="text-2xl block mb-1">⚡</span>
-                    <span class="text-xs font-medium text-white/80">Baixo Consumo</span>
+                    <span class="text-xl sm:text-2xl block mb-1">⚡</span>
+                    <span class="text-[11px] sm:text-xs font-medium text-white/80">Economia</span>
                   </div>
                 </div>
               </div>
 
               <!-- Floating Micro Badges -->
-              <div class="absolute -bottom-4 -left-4 bg-white text-azul-escuro px-5 py-3 rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3">
-                <span class="text-2xl">⭐</span>
+              <div class="absolute -bottom-3 -left-3 sm:-bottom-4 sm:-left-4 bg-white text-azul-escuro px-4 py-2.5 sm:px-5 sm:py-3 rounded-2xl shadow-xl border border-gray-100 flex items-center gap-2.5 sm:gap-3">
+                <span class="text-xl sm:text-2xl">⭐</span>
                 <div>
-                  <p class="text-xs font-extrabold">Excelência Garantida</p>
-                  <p class="text-[11px] text-cinza-texto">100% Clientes Satisfeitos</p>
+                  <p class="text-[11px] sm:text-xs font-extrabold">Excelência Garantida</p>
+                  <p class="text-[10px] sm:text-[11px] text-cinza-texto">100% Satisfeitos</p>
                 </div>
               </div>
 
             </div>
 
             <!-- Background Glowing Orbs -->
-            <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-ciano/30 rounded-full blur-2xl pointer-events-none"></div>
-            <div class="absolute -top-6 -right-6 w-40 h-40 bg-azul/40 rounded-full blur-2xl pointer-events-none"></div>
+            <div class="absolute -bottom-6 -left-6 w-28 h-28 bg-ciano/30 rounded-full blur-2xl pointer-events-none"></div>
+            <div class="absolute -top-6 -right-6 w-36 h-36 bg-azul/40 rounded-full blur-2xl pointer-events-none"></div>
           </div>
         </div>
 
@@ -217,60 +223,60 @@
   </section>
 
   <!-- Sobre Section -->
-  <section id="sobre" class="py-20 lg:py-32 bg-white relative">
+  <section id="sobre" class="py-16 lg:py-32 bg-white relative">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
         
         <!-- Left Content -->
-        <div class="lg:col-span-7 scroll-reveal from-left space-y-6">
+        <div class="lg:col-span-7 scroll-reveal from-left space-y-5 sm:space-y-6">
           
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-azul-gelo border border-azul/10 text-azul font-bold text-xs uppercase tracking-wider">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-azul-gelo border border-azul/10 text-azul font-bold text-xs uppercase tracking-wider">
             <span>Conheça Nossa História</span>
           </div>
 
-          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-azul-escuro tracking-tight leading-tight">
+          <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-azul-escuro tracking-tight leading-tight">
             Compromisso com o seu conforto térmico e <span class="text-azul">tranquilidade</span>
           </h2>
           
-          <p class="text-cinza-texto text-base sm:text-lg leading-relaxed">
-            A <strong class="text-azul-escuro font-bold">JPM Climatização</strong> é referência em serviços de instalação, manutenção preventiva, corretiva e higienização de ar-condicionado e sistemas de refrigeração comercial e residencial.
+          <p class="text-cinza-texto text-sm sm:text-lg leading-relaxed">
+            A <strong class="text-azul-escuro font-bold">JPM Climatização</strong> é referência em serviços de instalação, manutenção preventiva, corretiva e higienização de ar-condicionado e sistemas de refrigeração.
           </p>
 
-          <p class="text-cinza-texto text-base sm:text-lg leading-relaxed">
-            Trabalhamos com equipamentos de todas as marcas e modelos (Splits, Inverters, Cassete, VRF, Freezers e Balcões), com foco total na eficiência energética, qualidade do ar e durabilidade dos seus aparelhos.
+          <p class="text-cinza-texto text-sm sm:text-lg leading-relaxed">
+            Trabalhamos com equipamentos de todas as marcas e modelos (Splits, Inverters, Cassete, VRF, Freezers e Balcões), focando em eficiência energética e qualidade do ar.
           </p>
 
-          <!-- Highlights Grid -->
-          <div class="grid sm:grid-cols-2 gap-4 pt-4">
-            <div class="p-4 rounded-2xl bg-azul-gelo/60 border border-azul/10 flex items-start gap-3">
-              <div class="w-10 h-10 rounded-xl bg-azul text-white flex items-center justify-center font-bold shrink-0">
+          <!-- Highlights Grid (2 cols on mobile) -->
+          <div class="grid grid-cols-2 gap-3 sm:gap-4 pt-2">
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-azul-gelo/60 border border-azul/10 flex items-start gap-2.5">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-azul text-white flex items-center justify-center font-bold text-sm shrink-0">
                 ✓
               </div>
               <div>
-                <h4 class="font-bold text-azul-escuro text-sm">Diagnóstico Preciso</h4>
-                <p class="text-xs text-cinza-texto mt-1">Identificação exata de falhas e vazamentos sem custos ocultos.</p>
+                <h4 class="font-bold text-azul-escuro text-xs sm:text-sm">Diagnóstico Preciso</h4>
+                <p class="text-[11px] sm:text-xs text-cinza-texto mt-0.5">Sem custos ocultos.</p>
               </div>
             </div>
 
-            <div class="p-4 rounded-2xl bg-azul-gelo/60 border border-azul/10 flex items-start gap-3">
-              <div class="w-10 h-10 rounded-xl bg-azul text-white flex items-center justify-center font-bold shrink-0">
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-azul-gelo/60 border border-azul/10 flex items-start gap-2.5">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-azul text-white flex items-center justify-center font-bold text-sm shrink-0">
                 ✓
               </div>
               <div>
-                <h4 class="font-bold text-azul-escuro text-sm">Peças Originais</h4>
-                <p class="text-xs text-cinza-texto mt-1">Componentes de qualidade e procedência garantida.</p>
+                <h4 class="font-bold text-azul-escuro text-xs sm:text-sm">Peças Originais</h4>
+                <p class="text-[11px] sm:text-xs text-cinza-texto mt-0.5">Qualidade garantida.</p>
               </div>
             </div>
           </div>
 
           <!-- Responsible Tech Badge -->
-          <div class="flex items-center gap-4 pt-6 border-t border-gray-100">
-            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-azul to-ciano flex items-center justify-center text-white font-extrabold text-xl shadow-md">
+          <div class="flex items-center gap-3.5 sm:gap-4 pt-4 sm:pt-6 border-t border-gray-100">
+            <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-tr from-azul to-ciano flex items-center justify-center text-white font-extrabold text-lg sm:text-xl shadow-md shrink-0">
               LC
             </div>
             <div>
-              <p class="font-extrabold text-azul-escuro text-base">Lucas</p>
-              <p class="text-sm font-semibold text-azul">Técnico Responsável &amp; Especialista em Climatização</p>
+              <p class="font-extrabold text-azul-escuro text-sm sm:text-base">Lucas</p>
+              <p class="text-xs sm:text-sm font-semibold text-azul">Técnico Responsável &amp; Especialista em Climatização</p>
             </div>
           </div>
 
@@ -283,9 +289,9 @@
               <img src="/images/sobre/equipe.png" alt="Equipe de atendimento técnico JPM Climatização" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-azul-escuro/85 via-azul-escuro/30 to-transparent"></div>
               
-              <div class="absolute bottom-6 left-6 right-6 text-white space-y-1 z-10">
-                <span class="px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase text-cyan-200">Equipe Qualificada</span>
-                <h3 class="text-xl font-extrabold">Atendimento Técnico Especializado</h3>
+              <div class="absolute bottom-5 left-5 right-5 text-white space-y-1 z-10">
+                <span class="px-2.5 py-0.5 rounded-full bg-white/20 backdrop-blur-md text-[10px] sm:text-[11px] font-bold tracking-wider uppercase text-cyan-200">Equipe Qualificada</span>
+                <h3 class="text-lg sm:text-xl font-extrabold">Atendimento Técnico Especializado</h3>
                 <p class="text-xs text-white/80">Lucas &bull; Responsável Técnico</p>
               </div>
             </div>
@@ -297,22 +303,118 @@
   </section>
 
   <!-- Serviços Section -->
-  <section id="servicos" class="py-20 lg:py-32 bg-azul-gelo relative">
+  <section id="servicos" class="py-16 lg:py-32 bg-azul-gelo relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center mb-16 space-y-4">
+      <div class="text-center mb-10 sm:mb-16 space-y-3">
         <span class="scroll-reveal from-bottom px-4 py-1.5 rounded-full bg-azul/10 text-azul font-bold text-xs uppercase tracking-widest">
           Nossos Serviços
         </span>
-        <h2 class="scroll-reveal from-bottom delay-1 text-3xl sm:text-4xl lg:text-5xl font-black text-azul-escuro tracking-tight">
-          Soluções completas para o seu ambiente
+        <h2 class="scroll-reveal from-bottom delay-1 text-2xl sm:text-4xl lg:text-5xl font-black text-azul-escuro tracking-tight">
+          Soluções completas para você
         </h2>
-        <p class="scroll-reveal from-bottom delay-2 text-cinza-texto text-base sm:text-lg max-w-2xl mx-auto">
+        <p class="scroll-reveal from-bottom delay-2 text-cinza-texto text-sm sm:text-lg max-w-2xl mx-auto">
           Oferecemos assistência técnica completa com agilidade, transparência e laudo técnico.
         </p>
+
+        <!-- Swipe Indicator Pill for Mobile Only -->
+        <div class="lg:hidden inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-azul/10 text-azul font-semibold text-xs mt-2">
+          <span>👉 Arraste para o lado para ver todos</span>
+        </div>
       </div>
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- MOBILE VERSION (< lg): App-style Touch Swipe Carousel -->
+      <div class="flex lg:hidden overflow-x-auto snap-x snap-mandatory gap-4 pb-4 no-scrollbar -mx-4 px-4">
+
+        <div class="w-[82vw] sm:w-[320px] shrink-0 snap-center scroll-reveal from-bottom delay-1">
+          <div class="card-hover bg-white rounded-3xl p-6 border border-gray-100 shadow-xl shadow-azul/5 h-full flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-azul-gelo text-azul flex items-center justify-center text-2xl mb-5 group-hover:bg-azul group-hover:text-white transition-colors duration-300">
+                ❄️
+              </div>
+              <h3 class="text-lg font-bold text-azul-escuro mb-2">Instalação de Ar-Condicionado</h3>
+              <p class="text-cinza-texto text-xs leading-relaxed mb-5">
+                Instalação padronizada de aparelhos Split, Inverter, Multi-Split, Cassete e VRF com tubulação de cobre e vácuo.
+              </p>
+            </div>
+            <a href="https://wa.me/5521965462781?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20Instalação%20de%20Ar-Condicionado" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-azul font-bold text-xs hover:text-azul-escuro transition-colors">
+              Solicitar este serviço &rarr;
+            </a>
+          </div>
+        </div>
+
+        <div class="w-[82vw] sm:w-[320px] shrink-0 snap-center scroll-reveal from-bottom delay-2">
+          <div class="card-hover bg-white rounded-3xl p-6 border border-gray-100 shadow-xl shadow-azul/5 h-full flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-azul-gelo text-azul flex items-center justify-center text-2xl mb-5 group-hover:bg-azul group-hover:text-white transition-colors duration-300">
+                🛡️
+              </div>
+              <h3 class="text-lg font-bold text-azul-escuro mb-2">Manutenção Preventiva</h3>
+              <p class="text-cinza-texto text-xs leading-relaxed mb-5">
+                Higienização profunda com bactericidas, limpeza de serpentinas e filtros para prevenção de fungos e bactérias.
+              </p>
+            </div>
+            <a href="https://wa.me/5521965462781?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20Manutenção%20Preventiva" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-azul font-bold text-xs hover:text-azul-escuro transition-colors">
+              Solicitar este serviço &rarr;
+            </a>
+          </div>
+        </div>
+
+        <div class="w-[82vw] sm:w-[320px] shrink-0 snap-center scroll-reveal from-bottom delay-3">
+          <div class="card-hover bg-white rounded-3xl p-6 border border-gray-100 shadow-xl shadow-azul/5 h-full flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-azul-gelo text-azul flex items-center justify-center text-2xl mb-5 group-hover:bg-azul group-hover:text-white transition-colors duration-300">
+                🔧
+              </div>
+              <h3 class="text-lg font-bold text-azul-escuro mb-2">Conserto e Reparo</h3>
+              <p class="text-cinza-texto text-xs leading-relaxed mb-5">
+                Diagnóstico elétrico, substituição de compressores, eliminação de vazamentos, ruídos e troca de placas eletrônicas.
+              </p>
+            </div>
+            <a href="https://wa.me/5521965462781?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20Conserto%20e%20Reparo" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-azul font-bold text-xs hover:text-azul-escuro transition-colors">
+              Solicitar este serviço &rarr;
+            </a>
+          </div>
+        </div>
+
+        <div class="w-[82vw] sm:w-[320px] shrink-0 snap-center scroll-reveal from-bottom delay-4">
+          <div class="card-hover bg-white rounded-3xl p-6 border border-gray-100 shadow-xl shadow-azul/5 h-full flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-azul-gelo text-azul flex items-center justify-center text-2xl mb-5 group-hover:bg-azul group-hover:text-white transition-colors duration-300">
+                🏢
+              </div>
+              <h3 class="text-lg font-bold text-azul-escuro mb-2">Climatização Comercial</h3>
+              <p class="text-cinza-texto text-xs leading-relaxed mb-5">
+                Projetos e contratos para escritórios, clínicas, academias e lojas garantindo ambiente sempre climatizado.
+              </p>
+            </div>
+            <a href="https://wa.me/5521965462781?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20Climatização%20Comercial" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-azul font-bold text-xs hover:text-azul-escuro transition-colors">
+              Solicitar este serviço &rarr;
+            </a>
+          </div>
+        </div>
+
+        <div class="w-[82vw] sm:w-[320px] shrink-0 snap-center scroll-reveal from-bottom delay-5">
+          <div class="card-hover bg-white rounded-3xl p-6 border border-gray-100 shadow-xl shadow-azul/5 h-full flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-azul-gelo text-azul flex items-center justify-center text-2xl mb-5 group-hover:bg-azul group-hover:text-white transition-colors duration-300">
+                🧊
+              </div>
+              <h3 class="text-lg font-bold text-azul-escuro mb-2">Freezers e Refrigeração</h3>
+              <p class="text-cinza-texto text-xs leading-relaxed mb-5">
+                Manutenção e reparo em freezers comerciais, balcões refrigerados, recarga de gás e substituição de peças.
+              </p>
+            </div>
+            <a href="https://wa.me/5521965462781?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20Freezers%20e%20Refrigeração" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-azul font-bold text-xs hover:text-azul-escuro transition-colors">
+              Solicitar este serviço &rarr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- DESKTOP PC VERSION (>= lg): Original Clean 3-Column Grid -->
+      <div class="hidden lg:grid lg:grid-cols-3 gap-8">
 
         <!-- Card 1 -->
         <div class="scroll-reveal from-bottom delay-1">
@@ -388,7 +490,7 @@
 
         <!-- Card 5 -->
         <div class="scroll-reveal from-bottom delay-5">
-          <div class="card-hover bg-white rounded-3xl p-8 border border-gray-100 shadow-xl shadow-azul/5 h-full flex flex-col justify-between group sm:col-span-2 lg:col-span-1">
+          <div class="card-hover bg-white rounded-3xl p-8 border border-gray-100 shadow-xl shadow-azul/5 h-full flex flex-col justify-between group">
             <div>
               <div class="w-14 h-14 rounded-2xl bg-azul-gelo text-azul flex items-center justify-center text-3xl mb-6 group-hover:bg-azul group-hover:text-white transition-colors duration-300">
                 🧊
@@ -405,101 +507,103 @@
         </div>
 
       </div>
+
     </div>
   </section>
 
-  <!-- Galeria de Trabalhos Section -->
-  <section id="trabalhos" class="py-20 lg:py-32 bg-white">
+  <!-- Galeria de Trabalhos Section (Compact 2-Column Grid on Mobile) -->
+  <section id="trabalhos" class="py-16 lg:py-32 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center mb-16 space-y-4">
+      <div class="text-center mb-10 sm:mb-16 space-y-3">
         <span class="scroll-reveal from-bottom px-4 py-1.5 rounded-full bg-azul/10 text-azul font-bold text-xs uppercase tracking-widest">
           Portfólio de Serviços
         </span>
-        <h2 class="scroll-reveal from-bottom delay-1 text-3xl sm:text-4xl lg:text-5xl font-black text-azul-escuro tracking-tight">
+        <h2 class="scroll-reveal from-bottom delay-1 text-2xl sm:text-4xl lg:text-5xl font-black text-azul-escuro tracking-tight">
           Galeria de Trabalhos Realizados
         </h2>
-        <p class="scroll-reveal from-bottom delay-2 text-cinza-texto text-base sm:text-lg max-w-2xl mx-auto">
+        <p class="scroll-reveal from-bottom delay-2 text-cinza-texto text-sm sm:text-lg max-w-2xl mx-auto">
           Confira algumas de nossas instalações e manutenções concluídas com padrão técnico impecável.
         </p>
       </div>
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- 2 Columns on Mobile | 3 Columns on Desktop -->
+      <div class="grid grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-8">
 
         <!-- Gallery Item 1 -->
         <div class="scroll-reveal from-bottom delay-1">
-          <div class="img-hover aspect-[4/3] rounded-3xl overflow-hidden shadow-xl relative cursor-pointer group">
+          <div class="img-hover aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg relative cursor-pointer group">
             <img src="/images/trabalhos/trabalho-1.png" alt="Instalação Split Inverter Residencial" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-azul-escuro/90 via-azul-escuro/40 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6 text-white space-y-1 z-10">
-              <span class="px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase text-cyan-200">Residencial</span>
-              <h3 class="text-lg font-bold">Instalação Split Inverter 12.000 BTUs</h3>
-              <p class="text-xs text-white/80">Acabamento com canaleta embutida e vácuo na tubulação.</p>
+            <div class="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 text-white space-y-0.5 sm:space-y-1 z-10">
+              <span class="px-2 py-0.5 sm:px-3 sm:py-1 rounded-full bg-white/20 backdrop-blur-md text-[9px] sm:text-[11px] font-bold tracking-wider uppercase text-cyan-200">Residencial</span>
+              <h3 class="text-xs sm:text-lg font-bold leading-tight line-clamp-1 sm:line-clamp-none">Instalação Split Inverter</h3>
+              <p class="text-[10px] sm:text-xs text-white/80 hidden sm:block">Acabamento com canaleta embutida e vácuo.</p>
             </div>
           </div>
         </div>
 
         <!-- Gallery Item 2 -->
         <div class="scroll-reveal from-bottom delay-2">
-          <div class="img-hover aspect-[4/3] rounded-3xl overflow-hidden shadow-xl relative cursor-pointer group">
+          <div class="img-hover aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg relative cursor-pointer group">
             <img src="/images/trabalhos/trabalho-2.png" alt="Manutenção Preventiva Comercial" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-azul-escuro/90 via-azul-escuro/40 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6 text-white space-y-1 z-10">
-              <span class="px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase text-cyan-200">Comercial</span>
-              <h3 class="text-lg font-bold">Manutenção Preventiva de Ar Cassete</h3>
-              <p class="text-xs text-white/80">Higienização com bactericida em escritório corporativo.</p>
+            <div class="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 text-white space-y-0.5 sm:space-y-1 z-10">
+              <span class="px-2 py-0.5 sm:px-3 sm:py-1 rounded-full bg-white/20 backdrop-blur-md text-[9px] sm:text-[11px] font-bold tracking-wider uppercase text-cyan-200">Comercial</span>
+              <h3 class="text-xs sm:text-lg font-bold leading-tight line-clamp-1 sm:line-clamp-none">Manutenção Cassete</h3>
+              <p class="text-[10px] sm:text-xs text-white/80 hidden sm:block">Higienização com bactericida.</p>
             </div>
           </div>
         </div>
 
         <!-- Gallery Item 3 -->
         <div class="scroll-reveal from-bottom delay-3">
-          <div class="img-hover aspect-[4/3] rounded-3xl overflow-hidden shadow-xl relative cursor-pointer group">
+          <div class="img-hover aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg relative cursor-pointer group">
             <img src="/images/trabalhos/trabalho-3.png" alt="Sistema VRF Multi-Ambiente" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-azul-escuro/90 via-azul-escuro/40 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6 text-white space-y-1 z-10">
-              <span class="px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase text-cyan-200">Industrial</span>
-              <h3 class="text-lg font-bold">Sistema VRF Multi-Ambiente</h3>
-              <p class="text-xs text-white/80">Instalação centralizada com alta economia de energia.</p>
+            <div class="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 text-white space-y-0.5 sm:space-y-1 z-10">
+              <span class="px-2 py-0.5 sm:px-3 sm:py-1 rounded-full bg-white/20 backdrop-blur-md text-[9px] sm:text-[11px] font-bold tracking-wider uppercase text-cyan-200">Industrial</span>
+              <h3 class="text-xs sm:text-lg font-bold leading-tight line-clamp-1 sm:line-clamp-none">Sistema VRF Multi</h3>
+              <p class="text-[10px] sm:text-xs text-white/80 hidden sm:block">Instalação centralizada com economia.</p>
             </div>
           </div>
         </div>
 
         <!-- Gallery Item 4 -->
         <div class="scroll-reveal from-bottom delay-4">
-          <div class="img-hover aspect-[4/3] rounded-3xl overflow-hidden shadow-xl relative cursor-pointer group">
+          <div class="img-hover aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg relative cursor-pointer group">
             <img src="/images/trabalhos/trabalho-4.png" alt="Conserto de Balcão Refrigerado" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-azul-escuro/90 via-azul-escuro/40 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6 text-white space-y-1 z-10">
-              <span class="px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase text-cyan-200">Refrigeração</span>
-              <h3 class="text-lg font-bold">Conserto de Balcão Refrigerado</h3>
-              <p class="text-xs text-white/80">Troca de compressor e recarga de gás em restaurante.</p>
+            <div class="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 text-white space-y-0.5 sm:space-y-1 z-10">
+              <span class="px-2 py-0.5 sm:px-3 sm:py-1 rounded-full bg-white/20 backdrop-blur-md text-[9px] sm:text-[11px] font-bold tracking-wider uppercase text-cyan-200">Refrigeração</span>
+              <h3 class="text-xs sm:text-lg font-bold leading-tight line-clamp-1 sm:line-clamp-none">Conserto de Balcão</h3>
+              <p class="text-[10px] sm:text-xs text-white/80 hidden sm:block">Troca de compressor e recarga de gás.</p>
             </div>
           </div>
         </div>
 
         <!-- Gallery Item 5 -->
         <div class="scroll-reveal from-bottom delay-5">
-          <div class="img-hover aspect-[4/3] rounded-3xl overflow-hidden shadow-xl relative cursor-pointer group">
+          <div class="img-hover aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg relative cursor-pointer group">
             <img src="/images/trabalhos/trabalho-5.png" alt="Limpeza Técnica e Troca de Filtros" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-azul-escuro/90 via-azul-escuro/40 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6 text-white space-y-1 z-10">
-              <span class="px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase text-cyan-200">Residencial</span>
-              <h3 class="text-lg font-bold">Limpeza Técnica e Troca de Filtros</h3>
-              <p class="text-xs text-white/80">Eliminação de mau odor e aumento no fluxo de ar frio.</p>
+            <div class="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 text-white space-y-0.5 sm:space-y-1 z-10">
+              <span class="px-2 py-0.5 sm:px-3 sm:py-1 rounded-full bg-white/20 backdrop-blur-md text-[9px] sm:text-[11px] font-bold tracking-wider uppercase text-cyan-200">Residencial</span>
+              <h3 class="text-xs sm:text-lg font-bold leading-tight line-clamp-1 sm:line-clamp-none">Limpeza Técnica</h3>
+              <p class="text-[10px] sm:text-xs text-white/80 hidden sm:block">Eliminação de mau odor e ar puro.</p>
             </div>
           </div>
         </div>
 
         <!-- Gallery Item 6 -->
         <div class="scroll-reveal from-bottom delay-6">
-          <div class="img-hover aspect-[4/3] rounded-3xl overflow-hidden shadow-xl relative cursor-pointer group">
+          <div class="img-hover aspect-[4/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg relative cursor-pointer group">
             <img src="/images/trabalhos/trabalho-6.png" alt="Instalação de Ar-Condicionado de Teto" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-azul-escuro/90 via-azul-escuro/40 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6 text-white space-y-1 z-10">
-              <span class="px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase text-cyan-200">Comercial</span>
-              <h3 class="text-lg font-bold">Instalação de Ar-Condicionado de Teto</h3>
-              <p class="text-xs text-white/80">Projeto para clínica médica com distribuição homogênea.</p>
+            <div class="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 text-white space-y-0.5 sm:space-y-1 z-10">
+              <span class="px-2 py-0.5 sm:px-3 sm:py-1 rounded-full bg-white/20 backdrop-blur-md text-[9px] sm:text-[11px] font-bold tracking-wider uppercase text-cyan-200">Comercial</span>
+              <h3 class="text-xs sm:text-lg font-bold leading-tight line-clamp-1 sm:line-clamp-none">Ar de Teto Comercial</h3>
+              <p class="text-[10px] sm:text-xs text-white/80 hidden sm:block">Projeto para clínica médica.</p>
             </div>
           </div>
         </div>
@@ -508,72 +612,73 @@
     </div>
   </section>
 
-  <!-- Diferenciais Section -->
-  <section id="diferenciais" class="py-20 lg:py-32 bg-azul-escuro text-white relative overflow-hidden">
+  <!-- Diferenciais Section (2x2 Grid on Mobile) -->
+  <section id="diferenciais" class="py-16 lg:py-32 bg-azul-escuro text-white relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       
-      <div class="text-center mb-16 space-y-4">
+      <div class="text-center mb-10 sm:mb-16 space-y-3">
         <span class="scroll-reveal from-bottom px-4 py-1.5 rounded-full bg-white/10 text-ciano font-bold text-xs uppercase tracking-widest border border-white/10">
           Por que a JPM?
         </span>
-        <h2 class="scroll-reveal from-bottom delay-1 text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight">
-          Nossos Diferenciais de Qualidade
+        <h2 class="scroll-reveal from-bottom delay-1 text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight">
+          Nossos Diferenciais
         </h2>
-        <p class="scroll-reveal from-bottom delay-2 text-white/80 text-base sm:text-lg max-w-2xl mx-auto">
-          Trabalhamos com o compromisso de entregar excelência e máxima confiança em cada atendimento.
+        <p class="scroll-reveal from-bottom delay-2 text-white/80 text-sm sm:text-lg max-w-2xl mx-auto">
+          Trabalhamos com o compromisso de entregar excelência e máxima confiança.
         </p>
       </div>
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- 2 Columns on Mobile | 4 Columns on Desktop -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-8">
 
         <!-- Card 1 -->
         <div class="scroll-reveal from-bottom delay-1">
-          <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/15 h-full flex flex-col items-center text-center hover:bg-white/15 transition-all duration-300">
-            <div class="w-16 h-16 rounded-2xl bg-ciano/20 text-ciano flex items-center justify-center text-3xl font-black mb-6">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-4 sm:p-8 border border-white/15 h-full flex flex-col items-center text-center hover:bg-white/15 transition-all duration-300">
+            <div class="w-11 h-11 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-ciano/20 text-ciano flex items-center justify-center text-xl sm:text-3xl font-black mb-3 sm:mb-6">
               ⚡
             </div>
-            <h3 class="font-bold text-xl mb-3">Agilidade no Atendimento</h3>
-            <p class="text-white/70 text-sm leading-relaxed">
-              Atendimento rápido para urgências e prazos de instalação cumpridos rigorosamente.
+            <h3 class="font-bold text-sm sm:text-xl mb-1.5 sm:mb-3">Agilidade</h3>
+            <p class="text-white/70 text-[11px] sm:text-sm leading-relaxed">
+              Atendimento rápido para urgências e prazos cumpridos.
             </p>
           </div>
         </div>
 
         <!-- Card 2 -->
         <div class="scroll-reveal from-bottom delay-2">
-          <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/15 h-full flex flex-col items-center text-center hover:bg-white/15 transition-all duration-300">
-            <div class="w-16 h-16 rounded-2xl bg-ciano/20 text-ciano flex items-center justify-center text-3xl font-black mb-6">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-4 sm:p-8 border border-white/15 h-full flex flex-col items-center text-center hover:bg-white/15 transition-all duration-300">
+            <div class="w-11 h-11 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-ciano/20 text-ciano flex items-center justify-center text-xl sm:text-3xl font-black mb-3 sm:mb-6">
               🛡️
             </div>
-            <h3 class="font-bold text-xl mb-3">Garantia em Serviços</h3>
-            <p class="text-white/70 text-sm leading-relaxed">
-              Todos os nossos serviços possuem garantia por escrito e suporte técnico pós-atendimento.
+            <h3 class="font-bold text-sm sm:text-xl mb-1.5 sm:mb-3">Garantia</h3>
+            <p class="text-white/70 text-[11px] sm:text-sm leading-relaxed">
+              Garantia por escrito e suporte pós-atendimento.
             </p>
           </div>
         </div>
 
         <!-- Card 3 -->
         <div class="scroll-reveal from-bottom delay-3">
-          <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/15 h-full flex flex-col items-center text-center hover:bg-white/15 transition-all duration-300">
-            <div class="w-16 h-16 rounded-2xl bg-ciano/20 text-ciano flex items-center justify-center text-3xl font-black mb-6">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-4 sm:p-8 border border-white/15 h-full flex flex-col items-center text-center hover:bg-white/15 transition-all duration-300">
+            <div class="w-11 h-11 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-ciano/20 text-ciano flex items-center justify-center text-xl sm:text-3xl font-black mb-3 sm:mb-6">
               📄
             </div>
-            <h3 class="font-bold text-xl mb-3">Orçamento Sem Compromisso</h3>
-            <p class="text-white/70 text-sm leading-relaxed">
-              Avaliação detalhada e orçamento transparente sem custos escondidos.
+            <h3 class="font-bold text-sm sm:text-xl mb-1.5 sm:mb-3">Orçamento Grátis</h3>
+            <p class="text-white/70 text-[11px] sm:text-sm leading-relaxed">
+              Avaliação detalhada sem custos escondidos.
             </p>
           </div>
         </div>
 
         <!-- Card 4 -->
         <div class="scroll-reveal from-bottom delay-4">
-          <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/15 h-full flex flex-col items-center text-center hover:bg-white/15 transition-all duration-300">
-            <div class="w-16 h-16 rounded-2xl bg-ciano/20 text-ciano flex items-center justify-center text-3xl font-black mb-6">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-4 sm:p-8 border border-white/15 h-full flex flex-col items-center text-center hover:bg-white/15 transition-all duration-300">
+            <div class="w-11 h-11 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-ciano/20 text-ciano flex items-center justify-center text-xl sm:text-3xl font-black mb-3 sm:mb-6">
               🤝
             </div>
-            <h3 class="font-bold text-xl mb-3">Residencial &amp; Comercial</h3>
-            <p class="text-white/70 text-sm leading-relaxed">
-              Estrutura para atender desde pequenas residências até grandes escritórios e empresas.
+            <h3 class="font-bold text-sm sm:text-xl mb-1.5 sm:mb-3">Residencial &amp; Comercial</h3>
+            <p class="text-white/70 text-[11px] sm:text-sm leading-relaxed">
+              Atendimento para residências, escritórios e lojas.
             </p>
           </div>
         </div>
@@ -583,20 +688,20 @@
   </section>
 
   <!-- CTA Final Section -->
-  <section class="py-20 lg:py-32 bg-white relative overflow-hidden">
+  <section class="py-16 lg:py-32 bg-white relative overflow-hidden">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-      <div class="scroll-reveal from-bottom space-y-8">
-        <span class="text-6xl inline-block float-icon">❄️</span>
-        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-azul-escuro tracking-tight leading-tight">
+      <div class="scroll-reveal from-bottom space-y-6 sm:space-y-8">
+        <span class="text-5xl sm:text-6xl inline-block float-icon">❄️</span>
+        <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-azul-escuro tracking-tight leading-tight">
           Não deixe a alta temperatura prejudicar o seu dia a dia.
         </h2>
-        <p class="text-cinza-texto text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
+        <p class="text-cinza-texto text-base sm:text-xl max-w-2xl mx-auto leading-relaxed">
           Entre em contato hoje mesmo com a equipe da <strong class="text-azul-escuro">JPM Climatização</strong> e solicite seu orçamento sem compromisso.
         </p>
         <div>
           <a href="https://wa.me/5521965462781" target="_blank" rel="noopener noreferrer"
-            class="btn-cta pulse-glow inline-flex items-center gap-3 bg-azul hover:bg-azul-escuro text-white px-10 py-5 rounded-full text-lg font-extrabold shadow-2xl transition-all">
-            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            class="btn-cta pulse-glow inline-flex items-center gap-3 bg-azul hover:bg-azul-escuro text-white px-8 py-4 sm:px-10 sm:py-5 rounded-full text-base sm:text-lg font-extrabold shadow-2xl transition-all">
+            <svg class="w-5 h-5 sm:w-6 sm:h-6 fill-current" viewBox="0 0 24 24">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
             </svg>
             Solicitar Orçamento Agora
@@ -607,45 +712,45 @@
   </section>
 
   <!-- Footer & Contato -->
-  <footer id="contato" class="bg-azul-escuro text-white pt-16 pb-12 border-t border-white/10">
+  <footer id="contato" class="bg-azul-escuro text-white pt-14 pb-10 border-t border-white/10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-12 gap-12 pb-16 border-b border-white/10">
+      <div class="grid lg:grid-cols-12 gap-10 pb-12 border-b border-white/10">
         
-        <div class="lg:col-span-5 space-y-6">
+        <div class="lg:col-span-5 space-y-4 sm:space-y-6">
           <a href="#inicio" class="flex items-center gap-3 group">
-            <div class="w-11 h-11 rounded-2xl bg-azul-escuro border border-white/20 p-2 flex items-center justify-center shadow-lg shadow-black/30 group-hover:border-ciano transition-colors">
+            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-azul-escuro border border-white/20 p-2 flex items-center justify-center shadow-lg shadow-black/30 group-hover:border-ciano transition-colors">
               <img src="/images/logo/logo.png" alt="Logo JPM Climatização" class="w-full h-full object-contain" />
             </div>
-            <span class="text-2xl font-black tracking-tight text-white">JPM <span class="text-ciano">CLIMATIZAÇÃO</span></span>
+            <span class="text-xl sm:text-2xl font-black tracking-tight text-white">JPM <span class="text-ciano">CLIMATIZAÇÃO</span></span>
           </a>
-          <p class="text-white/70 text-sm leading-relaxed max-w-md">
+          <p class="text-white/70 text-xs sm:text-sm leading-relaxed max-w-md">
             Especialistas em conforto térmico, climatização de ambientes e refrigeração em geral. Qualidade, agilidade e garantia para você e seu negócio.
           </p>
         </div>
 
-        <div class="lg:col-span-7 space-y-6">
-          <h3 class="text-xl font-bold text-white">Canais de Contato</h3>
-          <div class="grid sm:grid-cols-2 gap-4">
+        <div class="lg:col-span-7 space-y-4 sm:space-y-6">
+          <h3 class="text-lg sm:text-xl font-bold text-white">Canais de Contato</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             
             <a href="https://wa.me/5521965462781" target="_blank" rel="noopener noreferrer"
-              class="flex items-center gap-4 p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
-              <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xl shrink-0">
+              class="flex items-center gap-3.5 p-3.5 sm:p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-lg sm:text-xl shrink-0">
                 💬
               </div>
               <div>
-                <p class="text-xs text-white/60 font-medium">WhatsApp / Telefone</p>
-                <p class="text-sm font-bold text-white group-hover:text-ciano transition-colors">(21) 96546-2781</p>
+                <p class="text-[11px] sm:text-xs text-white/60 font-medium">WhatsApp / Telefone</p>
+                <p class="text-xs sm:text-sm font-bold text-white group-hover:text-ciano transition-colors">(21) 96546-2781</p>
               </div>
             </a>
 
             <a href="https://instagram.com/jpmclimatizacao01" target="_blank" rel="noopener noreferrer"
-              class="flex items-center gap-4 p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
-              <div class="w-12 h-12 rounded-xl bg-purple-500/20 text-purple-300 flex items-center justify-center text-xl shrink-0">
+              class="flex items-center gap-3.5 p-3.5 sm:p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-purple-500/20 text-purple-300 flex items-center justify-center text-xl shrink-0">
                 📷
               </div>
               <div>
-                <p class="text-xs text-white/60 font-medium">Instagram</p>
-                <p class="text-sm font-bold text-white group-hover:text-ciano transition-colors">@jpmclimatizacao01</p>
+                <p class="text-[11px] sm:text-xs text-white/60 font-medium">Instagram</p>
+                <p class="text-xs sm:text-sm font-bold text-white group-hover:text-ciano transition-colors">@jpmclimatizacao01</p>
               </div>
             </a>
 
@@ -654,7 +759,7 @@
 
       </div>
 
-      <div class="pt-8 text-center sm:flex sm:justify-between sm:items-center text-xs text-white/50 space-y-4 sm:space-y-0">
+      <div class="pt-6 sm:pt-8 text-center sm:flex sm:justify-between sm:items-center text-[11px] sm:text-xs text-white/50 space-y-2 sm:space-y-0">
         <p>&copy; 2026 JPM Climatização &mdash; Todos os direitos reservados.</p>
         <p>Desenvolvido com padrão de alta qualidade visual e técnica.</p>
       </div>
@@ -663,12 +768,12 @@
 
   <!-- Floating WhatsApp Button -->
   <a href="https://wa.me/5521965462781" target="_blank" rel="noopener noreferrer"
-     class="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-[#25D366] hover:bg-[#20ba5a] text-white px-5 py-3.5 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 group"
+     class="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-50 flex items-center gap-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white px-4 py-3 sm:px-5 sm:py-3.5 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 group"
      aria-label="Falar no WhatsApp">
     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
     </svg>
-    <span class="font-bold text-sm hidden sm:inline-block">Falar no WhatsApp</span>
+    <span class="font-bold text-xs sm:text-sm">WhatsApp</span>
   </a>
 
   <!-- Script setup -->
